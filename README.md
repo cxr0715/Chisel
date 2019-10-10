@@ -412,6 +412,7 @@ class BRIDGEMacro(fb.FBCommand):
 Chisel是使用了lldb提供的[PythonAPI](https://lldb.llvm.org/python_reference/index.html)来实现各个脚本方法的。
 
 
+PS:xcode11的lldb使用的是Python3，导致会有问题，可以先在终端中输入defaults write com.apple.dt.lldb DefaultPythonVersion 2，让lldb使用Python2
 
 
 
